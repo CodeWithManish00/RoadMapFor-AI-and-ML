@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI & ML RoadMap</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --primary: #4f46e5;
+      --secondary: #10b981;
+      --accent: #f59e0b;
+      --text-dark: #1f2937;
+      --text-light: #6b7280;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, var(--primary), var(--secondary));
+      color: var(--white);
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+
+    section {
+      background: var(--white);
+      border-left: 6px solid var(--primary);
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    section:nth-child(even) {
+      border-left-color: var(--secondary);
+    }
+
+    section:hover {
+      transform: scale(1.01);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    section h2 {
+      color: var(--primary);
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+      color: var(--text-light);
+    }
+
+    li strong {
+      color: var(--text-dark);
+    }
+
+    .download-btn {
+      display: block;
+      width: fit-content;
+      margin: 3rem auto 1rem;
+      background: var(--accent);
+      color: var(--white);
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .download-btn:hover {
+      background: #d97706;
+    }
+
+    .college-table-container {
+      background: #0f172a;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      color: #fff;
+      margin-bottom: 3rem;
+    }
+
+    .college-table-container h2 {
+      color: #00f5d4;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.95rem;
+    }
+
+    thead {
+      background-color: #00f5d4;
+      color: #000;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #1e293b;
+    }
+
+    tbody tr:nth-child(odd) {
+      background-color: #334155;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      section h2 {
+        font-size: 1.3rem;
+      }
+
+      th, td {
+        padding: 0.7rem;
+        font-size: 0.85rem;
+      }
+
+      table {
+        font-size: 0.85rem;
+      }
+
+      ul {
+        padding-left: 1rem;
+      }
+
+      .download-btn {
+        font-size: 0.95rem;
+        padding: 0.8rem 1.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+
+      section {
+        padding: 1rem;
+      }
+
+      table, thead, tbody, th, td, tr {
+        display: block;
+      }
+
+      thead {
+        display: none;
+      }
+
+      td {
+        position: relative;
+        padding-left: 50%;
+        text-align: left;
+      }
+
+      td::before {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        font-weight: bold;
+        color: #00f5d4;
+        content: attr(data-label);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>AI & ML 4-Year Roadmap By Manish</h1>
+    <p>Targeting ₹15–30 LPA by 2029</p>
+  </header>
+
+  <main>
+    <div class="college-table-container">
+      <h2>🎓 Best Private Colleges in Noida for AI & ML</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>College Name</th>
+            <th>Avg Package</th>
+            <th>Top Package</th>
+            <th>AI/ML Scope</th>
+            <th>Admission Mode</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="College Name">Shiv Nadar University</td>
+            <td data-label="Avg Package">₹10–12 LPA</td>
+            <td data-label="Top Package">₹25+ LPA</td>
+            <td data-label="AI/ML Scope">★★★ (Excellent)</td>
+            <td data-label="Admission Mode">Direct + Scholarship Test</td>
+          </tr>
+          <tr>
+            <td data-label="College Name">JSS Academy</td>
+            <td data-label="Avg Package">₹6–8 LPA</td>
+            <td data-label="Top Package">₹20 LPA</td>
+            <td data-label="AI/ML Scope">★★</td>
+            <td data-label="Admission Mode">Direct/Management Quota</td>
+          </tr>
+          <tr>
+            <td data-label="College Name">Galgotias College</td>
+            <td data-label="Avg Package">₹4–6 LPA</td>
+            <td data-label="Top Package">₹12 LPA</td>
+            <td data-label="AI/ML Scope">★★</td>
+            <td data-label="Admission Mode">Direct + Counselling</td>
+          </tr>
+          <tr>
+            <td data-label="College Name">NIET</td>
+            <td data-label="Avg Package">₹4–5 LPA</td>
+            <td data-label="Top Package">₹10 LPA</td>
+            <td data-label="AI/ML Scope">★</td>
+            <td data-label="Admission Mode">Direct Admission</td>
+          </tr>
+          <tr>
+            <td data-label="College Name">KCC Institute</td>
+            <td data-label="Avg Package">₹3.5–5 LPA</td>
+            <td data-label="Top Package">₹8–10 LPA</td>
+            <td data-label="AI/ML Scope">★</td>
+            <td data-label="Admission Mode">100% Direct Admission</td>
+          </tr>
+          <tr>
+            <td data-label="College Name">NIU</td>
+            <td data-label="Avg Package">₹3–4 LPA</td>
+            <td data-label="Top Package">₹8 LPA</td>
+            <td data-label="AI/ML Scope">★</td>
+            <td data-label="Admission Mode">Direct Admission</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <main> 
+    <section>
+      <h2>🎓 Year 1 (2025–2026): Build Foundations</h2>
+      <ul>
+        <li>✅ Learn Python – FreeCodeCamp, Programiz, Python Crash Course</li>
+        <li>✅ Learn HTML, CSS, JavaScript (frontend basics) – You already know some — now go deeper</li>
+        <li>✅ Learn Data Structures & Algorithms (DSA) – LeetCode, GeeksforGeeks, CodeStudio</li>
+        <li>✅ Git & GitHub – Version control + profile building</li>
+        <li>✅ Start Competitive Coding – Codeforces, AtCoder, Hackerrank</li>
+        <li>✅ ML Intro – YouTube : CodeWithHarry, Krish Naik, StatQuest, Coursera: Andrew Ng ML</li>
+        <li>✅ Soft Skills – Improve English + Communication (YouTube, practice groups)</li>
+        <li>🔥 Bonus: Join college coding clubs or tech communities like GDSC.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🤖 Year 2 (2026–2027): Deep into AI & ML + Projects</h2>
+      <ul>
+        <li>✅ Learn Core ML Algorithms – Scikit-learn, NumPy, Pandas, Matplotlib</li>
+        <li>✅ Deep Learning Basics – TensorFlow, Keras, PyTorch (start with Keras)</li>
+        <li>✅ Build 3–5 Solid Projects – ML Chatbot, Fake News Detector, Face Recognition, etc.</li>
+        <li>✅ Host Projects Online – GitHub + Portfolio Website</li>
+        <li>✅ Start Kaggle Competitions – www.kaggle.com</li>
+        <li>✅ Internship Applications – Internshala, AngelList, LinkedIn, College portal</li>
+        <li>✅ Resume & LinkedIn Profile – Start building online presence</li>
+        <li>🔥 Tip: Apply for remote internships + open-source projects (GSoC, MLH).</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>💼 Year 3 (2027–2028): Mastery + Major Internship</h2>
+      <ul>
+        <li>✅ Advanced ML & DL – NLP (HuggingFace), CNNs, RNNs, Transformers</li>
+        <li>✅ System Design Basics – Important for interviews</li>
+        <li>✅ SQL + MongoDB + Firebase – Data handling and storage</li>
+        <li>✅ Full-Stack AI App – Use Flask/Django + React/HTML to deploy an AI tool</li>
+        <li>✅ Internship @ startup/MNC – Target roles: ML Intern, Data Analyst, Research Assistant</li>
+        <li>✅ Start LeetCode seriously – Solve 300–500 problems by year end</li>
+        <li>✅ Practice Interviews – Pramp, InterviewBit, mock sessions</li>
+        <li>🔥 Apply for: Google STEP Intern, Microsoft Engage, Amazon ML Intern</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🏆 Year 4 (2028–2029): Placement + Research/Startup Ready</h2>
+      <ul>
+        <li>✅ Final Resume – Projects + Internships + DSA + AI</li>
+        <li>✅ Master ML Systems + LLMs – Explore generative AI (OpenAI, Meta AI, etc.)</li>
+        <li>✅ LeetCode 🔥 – Complete top 300–400 questions</li>
+        <li>✅ Prepare for FAANG interviews – Mock interviews, DS-ALGO drills, HR prep</li>
+        <li>✅ Apply to: Google, Amazon, Zomato, Flipkart, AI startups</li>
+        <li>✅ Backup – MS/MTech abroad, GATE, CSIR-NET</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📦 Final Checklist by 2029</h2>
+      <ul>
+        <li>✅ GitHub – 10+ real-world AI projects</li>
+        <li>✅ LeetCode – 500+ problems solved</li>
+        <li>✅ Internships – At least 2 (ML or Data roles)</li>
+        <li>✅ Portfolio – Website + LinkedIn + Resume</li>
+        <li>✅ Job – ₹15–30 LPA AI/ML Developer, Research Engineer, or Data Scientist</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🛠 Bonus Tools</h2>
+      <ul>
+        <li><strong>IDEs:</strong> VS Code, Jupyter Notebook</li>
+        <li><strong>Cloud:</strong> Google Colab, AWS, HuggingFace</li>
+        <li><strong>Design:</strong> Figma (for UI if you build web tools)</li>
+        <li><strong>Learning:</strong> Coursera, Udemy, fast.ai, YouTube (CodeWithHarry, Krish Naik, CodeBasics)</li>
+      </ul>
+    </section>
+
+    <a href="#" class="download-btn" onclick="generatePDF()">📄 Download PDF</a>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script>
+    async function generatePDF() {
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF();
+      let y = 10;
+      doc.setFont("helvetica");
+
+      const sections = document.querySelectorAll("section");
+      sections.forEach(section => {
+        const title = section.querySelector("h2").textContent;
+        doc.setFontSize(14);
+        doc.text(title, 10, y);
+        y += 10;
+
+        section.querySelectorAll("li").forEach(li => {
+          doc.setFontSize(11);
